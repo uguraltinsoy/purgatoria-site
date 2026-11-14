@@ -5,6 +5,7 @@ import AboutSection from "@/components/AboutSection";
 import TAMeshSection from "@/components/TAMeshSection";
 import MapsSection from "@/components/MapsSection";
 import BlogSection from "@/components/BlogSection";
+import FinancialTimeline from "@/components/FinancialTimeline";
 // import CommunityPosts from "@/components/CommunityPosts";
 import Footer from "@/components/Footer";
 import SectionNav from "@/components/SectionNav";
@@ -19,6 +20,7 @@ export default function App() {
       <div id="tamesh"><TAMeshSection /></div>
       <div id="maps"><MapsSection /></div>
       <div id="blog"><BlogSection /></div>
+      <div id="financial-timeline"><FinancialTimeline /></div>
       {/* <div id="community-posts"><CommunityPosts /></div> */}
       <Footer />
     </div>

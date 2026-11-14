@@ -1,0 +1,84 @@
+[
+    {
+        "id": "PRG-EXP-000001",
+        "name": "Purgatoria Discord Nitro",
+        "start": "2024-07-07",
+        "custom_class": "category-annual",
+        "price": 1049.99,
+        "currency": "TRY",
+        "type": "annual",
+        "transaction_type": "expense"
+    },
+    {
+        "id": "PRG-EXP-000002",
+        "name": "tamesh.org",
+        "start": "2024-11-28",
+        "custom_class": "category-annual",
+        "price": 540.00,
+        "currency": "TRY",
+        "type": "annual",
+        "transaction_type": "expense"
+    },
+    {
+        "id": "PRG-EXP-000003",
+        "name": "MEE6 Custom Bot",
+        "start": "2025-01-19",
+        "custom_class": "category-integration",
+        "price": 89.99,
+        "currency": "USD",
+        "type": "annual",
+        "transaction_type": "expense"
+    },
+    {
+        "id": "PRG-INC-000001",
+        "name": "Topluluk Bağışı (Patreon)",
+        "start": "2024-08-01",
+        "custom_class": "category-monthly",
+        "price": 50.00,
+        "currency": "USD",
+        "type": "monthly",
+        "transaction_type": "income"
+    },
+    {
+        "id": "PRG-EXP-000004",
+        "name": "Blog Theme Design Service",
+        "start": "2025-04-17",
+        "end": "2025-04-18",
+        "custom_class": "category-fixed",
+        "price": 10.00,
+        "currency": "USD",
+        "type": "fixed",
+        "transaction_type": "expense"
+    },
+    {
+        "id": "PRG-EXP-000005",
+        "name": "purgatoria.tr",
+        "start": "2025-06-09",
+        "custom_class": "category-annual",
+        "price": 1650.00,
+        "currency": "TRY",
+        "type": "annual",
+        "transaction_type": "expense"
+    },
+    {
+        "id": "PRG-INC-000002",
+        "name": "Tek Seferlik Sponsorluk",
+        "start": "2025-02-10",
+        "end": "2025-02-11",
+        "custom_class": "category-fixed",
+        "price": 200.00,
+        "currency": "EUR",
+        "type": "fixed",
+        "transaction_type": "income"
+    },
+    {
+        "id": "PRG-EXP-000008",
+        "name": "VPS Server",
+        "start": "2026-03-01",
+        "custom_class": "category-monthly",
+        "price": 4.49,
+        "currency": "EUR",
+        "type": "monthly",
+        "transaction_type": "expense"
+    }
+]

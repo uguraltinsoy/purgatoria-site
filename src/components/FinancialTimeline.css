@@ -1,0 +1,132 @@
+/* FinancialTimeline.css - Extracted Frappe Gantt Custom Styles */
+
+/* Gantt Chart Overrides for Dark Mode */
+.gantt-target {
+    overflow-x: auto;
+    border-radius: 0.5rem;
+}
+
+.gantt-target svg {
+    border: 1px solid var(--border);
+    border-radius: 0.5rem;
+    background-color: var(--card);
+}
+
+.gantt .grid-background {
+    fill: var(--card);
+}
+
+.gantt .grid-header {
+    fill: var(--card);
+    stroke: var(--border);
+}
+
+.gantt .grid-row {
+    fill: var(--card);
+}
+
+.gantt .grid-row:nth-child(even) {
+    fill: rgba(255,255,255,0.02);
+}
+
+.gantt .row-line {
+    stroke: var(--border);
+}
+
+.gantt .tick {
+    stroke: var(--muted);
+}
+
+.gantt .tick.thick {
+    stroke: rgba(255,255,255,0.2);
+}
+
+.gantt .today-highlight {
+    fill: rgba(206, 147, 216, 0.1); /* purple hint matching the site accent */
+}
+
+.gantt text {
+    fill: var(--muted-fg);
+    font-family: 'Inter', system-ui, sans-serif !important;
+}
+
+.gantt text.upper-text,
+.gantt text.lower-text {
+    fill: var(--foreground) !important;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.gantt .bar-label {
+    fill: #fff;
+    font-weight: 500;
+}
+
+/* Custom Category Colors for Gantt Bars */
+.gantt .bar-wrapper.category-annual .bar {
+    fill: #10b981; /* emerald-500 */
+}
+.gantt .bar-wrapper.category-annual .bar-progress {
+    fill: rgba(255,255,255,0.2);
+}
+
+.gantt .bar-wrapper.category-fixed .bar {
+    fill: #f59e0b; /* amber-500 */
+}
+.gantt .bar-wrapper.category-fixed .bar-progress {
+    fill: rgba(255,255,255,0.2);
+}
+
+.gantt .bar-wrapper.category-monthly .bar {
+    fill: #8b5cf6; /* violet-500 */
+}
+.gantt .bar-wrapper.category-monthly .bar-progress {
+    fill: rgba(255,255,255,0.2);
+}
+
+.gantt .bar-wrapper.category-integration .bar {
+    fill: #ec4899; /* pink-500 */
+}
+.gantt .bar-wrapper.category-integration .bar-progress {
+    fill: rgba(255,255,255,0.2);
+}
+
+/* Custom Tooltip */
+.gantt-container .popup-wrapper {
+    background: var(--background);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+    padding: 0;
+    width: max-content !important;
+    min-width: 280px;
+    max-width: 400px;
+}
+
+/* Disable visual resizing handles and change cursor to default */
+.gantt .handle-group {
+    display: none !important;
+}
+
+.gantt .bar-wrapper {
+    cursor: default !important;
+}
+
+.gantt-container .popup-wrapper .title {
+    border-bottom: 1px solid var(--border);
+    padding: 12px 16px;
+    font-weight: 600;
+    color: var(--foreground);
+}
+
+.gantt-container .popup-wrapper .subtitle {
+    padding: 12px 16px;
+    color: var(--muted-fg);
+    line-height: 1.8;
+    font-size: 0.9rem;
+}
+
+/* Hide SVG default tooltip triangle if we want a cleaner look */
+.gantt-container .popup-wrapper .pointer {
+    display: none;
+}
